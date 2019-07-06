@@ -1,0 +1,62 @@
+/*General CSS*/
+*{
+	margin:0px;
+	padding:0px;
+	font-size: 25px;
+
+}
+#nav{
+	background-color:none;
+}
+
+#nav-links{
+
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*li{
+	float:right;*/
+}
+*/
+li, a{
+	display:inline;
+	color:black;
+	text-decoration: none;
+	margin:0px;
+	padding:0px;
+	transition: background-color .4s;
+	float: right;
+}
+
+a:hover{
+	background-color: gray;
+}
+#image-area{
+	background-image: linear-gradient(to top,rgba(41, 128, 185,0.3), rgba(69, 127, 202, 1)), url(imagesss.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding-top: 600px;
+	padding-bottom:600px;
+}
+#name{
+	color: black;
+	background-color: cadetblue;
+	width:10%;
+	text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 700px){
+	#nav ul li a{
+		display: block;
+		text-align: center;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+
+	}
+}
